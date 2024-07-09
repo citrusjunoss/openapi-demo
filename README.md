@@ -1,5 +1,16 @@
-# Vue 3 + TypeScript + Vite
+# @umijs/openapi使用示意
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 使用说明
+
+1. 运行 `pnpm install` 安装依赖
+2. 运行 `pnpm openapi` 生成代码
+3. 运行 `pnpm dev` 启动开发服务
+
+
+## 文件说明
+
+`script/openapi-config.js` openapi 配置文件
+`script/openapi-gen.js` 调用插件生成文档
+
+> 实现方式仅供参考，主要用于示意@umijs/openapi插件的使用, 更多使用问题请参考插件文档[@umijs/openapi](https://github.com/chenshuai2144/openapi2typescript/tree/main)
